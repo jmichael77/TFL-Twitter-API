@@ -1,7 +1,7 @@
 $(function() {
-  
+
   $.ajax({
-    url: "https://api-argon.tfl.gov.uk/Line/Mode/tube/Status",
+    url: "https://api.tfl.gov.uk/line/mode/tube/status",
     success: function(data){
       console.log("result ", data);
       // Line Name
